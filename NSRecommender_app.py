@@ -24,10 +24,10 @@ ph = st.sidebar.empty()
 selected_game = ph.selectbox('Select one among the 787 games ' \
                                     'from the menu: (you can type it as well)', 
                                     [''] + games_df['Title'].to_list(), key='default',
-                             format_func=lambda x: 'Select an option' if x == '' else x)
+                             format_func=lambda x: 'Select a game' if x == '' else x)
 
 st.sidebar.markdown("# Want to know what's behind this app?") 
-st.sidebar.markdown("Click on the button :point_down::")
+st.sidebar.markdown("Click on the button :point_down:")
 btn = st.sidebar.button("How this app works?")
  
     
@@ -36,7 +36,7 @@ if btn:
     selected_game = ph.selectbox('Select one among the 787 games ' \
                                     'from the menu: (you can type it as well)', 
                                     [''] + games_df['Title'].to_list(),
-                                    format_func=lambda x: 'Select an option' if x == '' else x,
+                                    format_func=lambda x: 'Select a game' if x == '' else x,
                                         index=0, key='button')
     
     st.markdown('# How does this app work?')
@@ -155,4 +155,14 @@ else:
     if btn:
         pass
     else:
+        st.markdown('# Nintendo Switch game recommender')
+        st.text('')
+        st.markdown('> _So you have a Nintendo Switch, just finished an amazing game, and would like '\
+                    'to get recommendations for similar games?_')
+        st.text('')
+        st.markdown("This app lets you select a game from the dropdown menu and you'll get five "\
+                    'recommendations that are the closest to your game according to the gameplay and/or plot.')
+        st.markdown('The algorithm is based on natural language processing and unsupervised learning '\
+                    'techniques &#151; click on the *__How this app works?__* button to know more!')
+        st.text('')
         st.warning(':point_left: Select a game from the dropdown menu!')
