@@ -15,7 +15,7 @@ games_df, similarity_df = getdata()[0], getdata()[1]
 
 
 # Sidebar
-st.sidebar.markdown('__Nintendo Switch game recommendations__  \nAn app by ' \
+st.sidebar.markdown('__Nintendo Switch game recommender__  \nAn app by ' \
             '[Héctor Ramírez](https://hectoramirez.github.io/Portfolio/datascience.html)')
 st.sidebar.image('images/banner.png', use_column_width=True)
 st.sidebar.markdown('# Choose your game!')
