@@ -2,7 +2,7 @@
 
 __End-to-end project involving web scraping, clustering analysis and web app development.__  
 
-This is an end-to-end project where I built a web app that, given an input game, gives you a set of recommended video games using unsupervised learning techniques and natural language processing on the games' gameplay or plot.
+This is an end-to-end project where I built a web app that, given an input Nintendo Switch game, gives you a set of recommended video games using unsupervised learning techniques and natural language processing on the games' gameplay or plot.
 
 __The app is accessible from the following link: https://hectoramirez.github.io/Recommender-app.html__
 
