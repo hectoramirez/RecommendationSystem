@@ -18,6 +18,8 @@ These are the references I follow to develop this project:
 
 * [Learn How to Create Web Data Apps in Python](https://towardsdatascience.com/learn-how-to-create-web-data-apps-in-python-b50b624f4a0e)
 
+* [Deploying Streamlit app to EC2 instance](https://medium.com/@pokepim/deploying-streamlit-app-to-ec2-instance-7a7edeffbb54)
+
 * [Streamlit 101: An in-depth introduction](https://towardsdatascience.com/streamlit-101-an-in-depth-introduction-fc8aad9492f2)
 
 * https://github.com/shaildeliwala/experiments/blob/master/streamlit.py
