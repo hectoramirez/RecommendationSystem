@@ -1,10 +1,16 @@
 # Video game recommendation system
 
+> **Note:** The app is currently not live but can be run by cloning the repository, installing the requirements in 
+> `requirements.txt` and running 
+> ```
+> streamlit run NSRecommender_app.py
+> ```
+
 __End-to-end project involving web scraping, clustering analysis and web app development.__  
 
 This is an end-to-end project where I built a web app that, given an input Nintendo Switch game, gives you a set of recommended video games using unsupervised learning techniques and natural language processing on the games' gameplay or plot.
 
-__The app is accessible from the following link: https://hectoramirez.github.io/Recommender-app.html__
+__The app is accessible from the following link: ~~https://hectoramirez.github.io/Recommender-app.html~~__
 
 
 ![NS](https://img.shields.io/badge/-Nintendo_Switch-red)
@@ -36,7 +42,7 @@ __The app is accessible from the following link: https://hectoramirez.github.io/
     Finally, recommendations are queried using the matrix: once a game is selected, the top 5 closest games are returned.
 
 
-* `NSRecommender_app.py`: Streamlit web app. The app is hosted in an Amazon Web Services EC2 instance, accessible from [here](https://hectoramirez.github.io/Recommender-app.html).
+* `NSRecommender_app.py`: Streamlit web app. The app is hosted in an Amazon Web Services EC2 instance, accessible from [~~here~~]().
 
 ## Contact
 
